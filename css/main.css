@@ -1,0 +1,150 @@
+*{margin: opx;
+    padding: 0px;
+}
+
+body{
+   
+    font-family: 'poppiens', sans-serif;
+    background-color: rgb(243, 245, 249);
+}
+.header{
+    padding: 2px;
+    font-family: 'poppiens', sans-serif;
+    background-color: rgb(2, 13, 43);
+    color: white;
+    height: 100vh;
+    /* background-image: url(../Assets/skkp.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://shivsagardahiya.github.io/My-Portfolio/img/Des.png ");
+    background-size: 1700px;
+    box-shadow: -10px -15px -15px -15px rgba(20, 20, 20, 0.597);
+  box-shadow: inset 0px 0px 222px 705px  rgba(12, 12, 12, 0.768);
+    
+}
+.fade-in-image { animation: fadeIn 6s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(10, 90, 90);
+    height: 70px;
+    font-size: 21px;
+}
+nav ul{
+   display: flex;
+   justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(173, 173, 236);
+    font-size: 1.4rem;
+}
+.left{
+    font-size: 2rem;
+    color: rgb(157, 223, 245);
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+.leftSection{
+    width: 30%;
+    /* background-color: red; */
+    color: white;
+    font-size: 35px;
+    font-family: 'poppiens',sans-serif;
+
+}
+.rightSection{
+    width: 30%;
+    height: 60%;
+   
+}
+.s{
+    color: rgb(252, 32, 193);
+}
+#element{
+    color: rgb(89, 89, 242);
+    font-size: 60px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0px 40px;
+}
+.tab-link{
+    margin-right: 50px;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-link::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: brown;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-containtes ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-containtes span{
+    color: #dc2c64;
+    font-size: 23px;
+}
+.tab-containtes{
+    display: none;
+}
+.tab-containtes.active-tab{
+    display: block;
+}
+li{
+    font-size: 22px;
+}
+
+.container{
+    background-color: aliceblue;
+    height: 100vh;
+}
+p{
+    font-size: 20px;
+}
+/* -------About--------- */
+
+.tab-link::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.web{
+    color: rgb(55, 55, 243);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+
+
